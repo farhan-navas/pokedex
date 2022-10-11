@@ -4,6 +4,15 @@
 
 .Pokedex-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+}
+
+.Pokedex-winner {
+    color: green;
+    background-color: lightgreen;
+}
+
+.Pokedex-loser {
+    color: red;
+    background-color: pink;
 }

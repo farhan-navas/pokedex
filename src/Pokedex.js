@@ -33,6 +33,10 @@ class Pokedex extends Component {
                     </div>
                 ))}
                 </div>
+                <div className={props.isWinner ? "Pokedex-winner" : "Pokedex-loser"}>
+                    <div>{props.exp}</div>
+                    <div>{props.isWinner ? 'Winner' : 'Loser!'}</div>
+                </div>            
             </div>
         )
     }    
