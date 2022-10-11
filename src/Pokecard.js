@@ -8,8 +8,8 @@ class Pokecard extends Component {
         return (
             <div className="Pokecard">
                 <h2 className="Pokecard-header">{name}</h2>
-                <img src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${id}.png`} alt=""/>
-                <div>type: {type}</div>
+                <img className="Pokecard-image" src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${id}.png`} alt=""/>
+                <div>Type: {type}</div>
                 <div>EXP: {base_experience}</div>
             </div>
         )
